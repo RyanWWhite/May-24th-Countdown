@@ -1,0 +1,26 @@
+div { 
+    border-width: 1px; 
+    border-style: dashed;
+    border-color: black;
+    }
+p {
+    border-width: 1px; 
+    border-style: dashed;
+    border-color: black;
+}
+
+h3 { 
+    color: red;
+    font-family: sans-serif;
+    font-size: 300%;
+    border-width: 1px; 
+    border-style: dashed;
+    border-color: black;
+    }
+
+#no-masks {
+    color: blue;
+    border-width: 1px; 
+    border-style: dashed;
+    border-color: black; 
+}
