@@ -45,7 +45,7 @@ const date = futureDate.getDate();
 const weekday = weekdays [futureDate.getDay()];
 
 
-fishing.textContent = 'Fishing begins on ${weekday}, ${date} ${months} ${year} ${hours}: ${minutes}am';
+fishing.textContent = `Fishing begins on ${weekday}, ${date} ${month} ${year} ${hours}: ${minutes}am`;
 
 // future time in ms
 const futureTime = futureDate.getTime();
@@ -76,7 +76,7 @@ const values = [days,hours,minutes,seconds];
 
 function format(item){
     if(item < 10){
-        return (item = '0${item}');
+        return (item = `0${item}`);
     }
     return item;
 }

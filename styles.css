@@ -1,26 +1,47 @@
-div { 
-    border-width: 1px; 
-    border-style: dashed;
-    border-color: black;
-    }
-p {
-    border-width: 1px; 
-    border-style: dashed;
-    border-color: black;
+body {
+  background-color: #aee1f6;
+  text-align: center;
+  margin: 0;
+  padding: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h3 { 
-    color: red;
-    font-family: sans-serif;
-    font-size: 300%;
-    border-width: 1px; 
-    border-style: dashed;
-    border-color: black;
-    }
+img {
+  width: 100%;
+  max-width: 65rem;
+}
 
-#no-masks {
-    color: blue;
-    border-width: 1px; 
-    border-style: dashed;
-    border-color: black; 
+.fishing {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+  color: #b70505;
+}
+
+h3 {
+  color: #b70505;
+  font-size: 4rem;
+}
+
+.deadline {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.deadline-format {
+  font-size: 30px;
+  line-height: 1px;
+  width: 100px;
+  height: 110px;
+  background-color: #ffffff;
+}
+
+.deadline-format {
+  border: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: black;
 }
